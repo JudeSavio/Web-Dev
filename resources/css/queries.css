@@ -1,0 +1,40 @@
+
+/* Big tablets to 1200px (widths smaller than 1140 row) */
+@media only screen and(max-width : 1200px){
+    .hero-text-box{
+        width: 90%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 5%;
+    }
+}
+
+
+/* Small tablets to Big tablets */
+@media only screen and(max-width : 1023px){
+    body {font-size: 18px;}
+    section { padding : 60px 0;}
+    .long-cpoy {
+        width : 80%;
+        margin-left : 10%;
+    }
+    .steps-box {
+        margin-top: 10px;
+    }
+    .works-steps {
+        margin-bottom : 15px;
+    }
+}
+
+/* Small Phones to Small tablets */
+@media only screen and(max-width : 767px){
+
+}
+
+
+/* Small Phones */
+@media only screen and(max-width : 480px){
+
+}
